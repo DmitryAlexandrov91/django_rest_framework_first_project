@@ -1,6 +1,7 @@
 """Вьюсеты эндпоинтов проекта."""
+from typing import Optional, Sequence
 from django.shortcuts import get_object_or_404
-from posts.models import Group, Post
+from posts.models import Group, Post, Comment
 from rest_framework import viewsets
 
 from .mixins import AuthorMixin
@@ -33,7 +34,7 @@ class CommentViewSet(AuthorMixin, viewsets.ModelViewSet):
 
     serializer_class = CommentSerializer
 
-    def get_current_post(self):
+    def get_current_post(self) -> Optional[Post]:
         """Возвращает пост по id."""
         post = get_object_or_404(
             Post,
