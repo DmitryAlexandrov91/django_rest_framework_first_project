@@ -55,3 +55,6 @@
 
  <u>Telegram</u>
  - https://t.me/@AlDmAl
+
+  <u>Habr Career</u>
+ - https://career.habr.com/aldmal
