@@ -1,8 +1,12 @@
 asgiref==3.5.2
-attrs==22.1.0
+attrs==25.3.0
 Django==3.2
 djangorestframework==3.12.4
+drf-spectacular==0.28.0
+inflection==0.5.1
 iniconfig==1.1.1
+jsonschema==4.24.0
+jsonschema-specifications==2025.4.1
 packaging==21.3
 Pillow==9.3.0
 pluggy==0.13.1
@@ -12,5 +16,10 @@ pytest==6.2.4
 pytest-django==4.4.0
 pytest-pythonpath==0.7.3
 pytz==2022.6
+PyYAML==6.0.2
+referencing==0.36.2
+rpds-py==0.26.0
 sqlparse==0.4.3
 toml==0.10.2
+typing_extensions==4.14.1
+uritemplate==4.2.0
